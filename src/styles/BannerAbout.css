@@ -1,0 +1,24 @@
+.main_b_about {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.banner_about {
+  width: 100%;
+}
+
+.banner_about img {
+  height: 200px;
+  border-radius: 20px;
+  width: 100%;
+}
+/*.banner {
+    width: 100%;
+    background-image: url(../assets/banner.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: brightness(0.5);
+  }*/

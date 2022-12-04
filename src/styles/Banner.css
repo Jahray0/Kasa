@@ -3,6 +3,7 @@
   margin: 20px;
   border-radius: 10px;
   display: flex;
+  height: 200px;
 }
 
 .banner {
@@ -14,6 +15,9 @@
   text-align: center;
   width: 100%;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*.banner {
   width: 100%;
@@ -25,8 +29,9 @@
 }*/
 
 .banner h1 {
-  text-align: center;
   color: white;
   filter: brightness(1);
-  padding: 20px;
+  padding: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
