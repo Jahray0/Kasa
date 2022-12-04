@@ -1,0 +1,19 @@
+footer {
+  background-color: Black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column img {
+  width: 100px;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.right {
+  color: white;
+}

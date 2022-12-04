@@ -1,0 +1,33 @@
+body {
+}
+
+.h_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(255, 96, 96);
+  font-size: 25px;
+}
+
+li a:hover {
+  border-bottom: 2px solid rgb(255, 96, 96);
+}

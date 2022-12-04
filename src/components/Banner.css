@@ -1,0 +1,32 @@
+.main_b {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/banner.png);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+}
+/*.banner {
+  width: 100%;
+  background-image: url(../assets/banner.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  filter: brightness(0.5);
+}*/
+
+.banner h1 {
+  text-align: center;
+  color: white;
+  filter: brightness(1);
+  padding: 20px;
+}
