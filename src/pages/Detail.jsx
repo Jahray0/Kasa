@@ -24,7 +24,8 @@ function Detail() {
   } else {
     return (
       <div className="detail__main">
-        <DetailLogements info={logement} />
+        {/*utilisation du composant DetailLogements prenant en paramètre les informations du logement*/}
+        <DetailLogements data={logement} />
         <div className="collapse">
           <Collapse
             className="collapse__container"
@@ -34,6 +35,7 @@ function Detail() {
           <Collapse
             className="collapse__container"
             title="Equipements"
+            //on parcours le tableau d'équipements et on affiche chaque équipement
             description={logement.equipments.map((equipment, index) => (
               <div key={index}>{equipment}</div>
             ))}
