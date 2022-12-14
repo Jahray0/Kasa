@@ -2,10 +2,10 @@
 import { Routes, Route } from "react-router-dom";
 
 //!= pages
-import About from "../pages/About/About";
-import Detail from "../pages/Detail/Detail";
-import Home from "../pages/Home/Home";
-import Page404 from "../pages/Page404/Page404";
+import About from "../pages/About";
+import Detail from "../pages/Detail";
+import Home from "../pages/Home";
+import Page404 from "../pages/Page404";
 
 //Header + footer (présent sur toutes les pages))
 import Footer from "./Footer/Footer";
@@ -20,9 +20,10 @@ function Layout() {
         {/* Routing */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="page404" element={<Page404 />} />
-          <Route path="detail" element={<Detail />} />
+          <Route path="/about" element={<About />} />
+          {/* * permet d'envoyer vers la page 404 lorsque l'url n'existe pas */}
+          <Route path="*" element={<Page404 />} />
+          <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </div>
       <Footer />

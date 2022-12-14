@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "../styles/Acordeon.css";
+import "../styles/components/Acordeon.css";
 import Chevron from "./Chevron";
 
 function Acordeon(props) {
@@ -31,10 +31,7 @@ function Acordeon(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="acordeon__content"
       >
-        <div
-          className="acordeon__text"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+        <div className="acordeon__text">{props.content}</div>
       </div>
     </div>
   );

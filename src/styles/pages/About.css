@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 1050px;
+}
+
+.aboutImage {
+  margin-top: 50px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 35px 0px 200px 0px;
+}
+
+.collapseContainer {
+  height: auto !important;
+  width: 100% !important;
+}
+
+.collapseTitle {
+  height: 47px;
+  border-radius: 5px !important;
+}
+
+.page {
+  position: absolute;
+  bottom: 0px;
+}

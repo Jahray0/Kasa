@@ -1,0 +1,8 @@
+.banner {
+  width: 100%;
+  background-image: url(../../assets/banner.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  filter: brightness(0.5);
+}

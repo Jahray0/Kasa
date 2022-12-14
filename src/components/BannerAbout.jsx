@@ -1,4 +1,4 @@
-import "../styles/BannerAbout.css";
+import "../styles/components/BannerAbout.css";
 import banner2 from "../assets/banner2.png";
 
 function BannerAbout() {
