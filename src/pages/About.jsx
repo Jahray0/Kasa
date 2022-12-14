@@ -34,9 +34,9 @@ function About() {
   ];
 
   return (
-    <div className="about">
+    <div className="about__main">
       <BannerAbout />
-      <div className="aboutContent">
+      <div className="about__content">
         {content.map((element) => (
           <Collapse
             className="collapseContainer"

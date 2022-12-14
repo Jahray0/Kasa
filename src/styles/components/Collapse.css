@@ -1,36 +1,37 @@
-.collapseContainer {
-  border-radius: 5px;
+.collapse__container {
+  border-radius: 10px;
   margin: 25px 0px;
 }
 
-.collapseTitle {
+.collapse__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #ff6060;
-  border-radius: 5px;
+  background-color: rgb(255, 96, 96);
+  border-radius: 10px;
 }
 
-.collapseTitle h2 {
+.collapse__title h2 {
   font-size: 24px;
   font-weight: 500;
   color: white;
   padding-left: 16px;
+  margin: 10px;
 }
 
-.collapseTitle img {
+.collapse__title img {
   width: 14px;
   height: 10px;
   padding-right: 16px;
-  color: white;
 }
 
-.collapseDescription {
+.collapse__description {
   background-color: #eae9e9;
+  font-size: 24px;
   border-radius: 5px;
   font-weight: 400;
-  color: #ff6060;
+  color: rgb(255, 96, 96);
   padding: 16px;
   margin: 0px;
 }

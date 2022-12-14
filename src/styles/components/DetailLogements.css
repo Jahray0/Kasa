@@ -1,4 +1,12 @@
-.lodgingDetails {
+.photo__logement {
+  margin: 80px;
+}
+
+.photo__logement img {
+  width: 100%;
+}
+
+.detail__logement {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -9,55 +17,35 @@
   color: #ff6060;
 }
 
-.lodgingDetailsInfos h1 {
+.detail__logement__name_adress h1 {
   font-size: 36px;
   font-weight: 500;
   margin: 0;
 }
 
-.lodgingDetailsInfos p {
+.detail__logement__name_adress p {
   font-size: 18px;
 }
 
-.lodgingDetailsHost {
+.detail__logement__proprio {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
 
-.lodgingDetailsHost p {
+.detail__logement__proprio__content p {
   font-size: 18px;
-  width: min-content;
   text-align: right;
 }
 
-.lodgingDetailsHostName img {
+.detail__logement__proprio__name img {
   border-radius: 50%;
   width: 64px;
   height: 64px;
 }
 
-.lodgingDetailsHostName {
+.detail__logement__proprio__name {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  column-gap: 10px;
-}
-
-.lodgingDetailsRating img {
-  width: 30px;
-  height: 30px;
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-}
-.tag {
-  height: 25px;
-  padding: 7px 30px 0px 30px;
-  color: white;
-  background-color: #ff6060;
-  border-radius: 10px;
-  margin-right: 10px;
 }

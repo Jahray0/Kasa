@@ -1,3 +1,8 @@
-.about {
+.about__main {
   margin: 40px;
+}
+
+.about__content {
+  padding-left: 80px;
+  padding-right: 80px;
 }

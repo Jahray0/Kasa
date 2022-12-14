@@ -1,4 +1,4 @@
-.logement {
+.logement_main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -7,13 +7,13 @@
   border-radius: 20px;
 }
 
-.logement a {
+.logement_main a {
   width: 26%;
   margin: 30px;
   text-decoration: none;
 }
 
-.logement a img {
+.logement_main a img {
   width: 100%;
   height: 300px;
   border-radius: 20px;

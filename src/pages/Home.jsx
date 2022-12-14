@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <Banner />
-      <div className="logement">
+      <div className="logement_main">
         {logements &&
           logements.map((lodge) => (
             <Link key={lodge.id} to={`/detail/${lodge.id}`}>

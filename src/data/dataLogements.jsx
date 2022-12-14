@@ -1,15 +1,18 @@
+//import du fichier json
 import logements from "./logements.json";
 
-// Récupération des données des logements
-const getAllLodgings = () => {
+//fonction qui retourne tous les logements
+const getAllLogement = () => {
   return logements;
 };
 
-const getOneLodging = (id) => {
+//fonction qui retourne un logement en fonction de son id
+const getOneLogement = (id) => {
   return logements.find((log) => log.id === id);
 };
 
+//Export des fonctions
 export const dataLogements = {
-  getAllLodgings,
-  getOneLodging,
+  getAllLogement,
+  getOneLogement,
 };
