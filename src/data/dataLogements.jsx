@@ -9,7 +9,7 @@ const getOneLodging = (id) => {
   return logements.find((log) => log.id === id);
 };
 
-export const dataLodgings = {
+export const dataLogements = {
   getAllLodgings,
   getOneLodging,
 };
