@@ -49,3 +49,8 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.detail__logement__all_stars {
+  display: flex;
+  height: 20px;
+}
