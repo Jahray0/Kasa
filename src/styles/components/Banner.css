@@ -29,6 +29,8 @@
 }*/
 
 .banner h1 {
+  font-size: 48px;
+  font-weight: 500;
   color: white;
   filter: brightness(1);
   padding: auto;

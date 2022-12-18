@@ -12,7 +12,11 @@ function Home() {
           logements.map((lodge) => (
             <Link key={lodge.id} to={`/detail/${lodge.id}`}>
               <div className="card_img">
-                <img src={lodge.cover} alt="entreaperçu de le location" />
+                <img
+                  className="image"
+                  src={lodge.cover}
+                  alt="entreaperçu de le location"
+                />
               </div>
               <div className="card_title">
                 <p className="title">{lodge.title}</p>

@@ -8,6 +8,7 @@ import DetailLogements from "../components/DetailLogements";
 import Collapse from "../components/Collapse";
 //import Style
 import "../styles/pages/Detail.css";
+import Carousel from "../components/Carousel";
 
 // Affichage des composants des pages logement
 function Detail() {
@@ -24,6 +25,8 @@ function Detail() {
   } else {
     return (
       <div className="detail__main">
+        {/*utilisation du composant Carousel prenant en paramètre les images du logement*/}
+        <Carousel images={logement.pictures} />
         {/*utilisation du composant DetailLogements prenant en paramètre les informations du logement*/}
         <DetailLogements data={logement} />
         <div className="collapse">

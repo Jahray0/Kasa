@@ -1,9 +1,20 @@
 .collapse {
   display: flex;
+  justify-content: space-between;
+  width: 92%;
+  margin: 0 auto;
+}
+.collapse__container {
+  width: 100%;
+  margin: 12px;
 }
 
-.collapse__container {
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
+.detail__main .collapse__title h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.detail__main .collapse__description {
+  font-size: 18px;
+  font-weight: 400;
 }

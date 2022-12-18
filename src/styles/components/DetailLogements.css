@@ -12,7 +12,7 @@
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: -150px;
   margin-bottom: 30px;
   color: #ff6060;
 }
@@ -25,6 +25,21 @@
 
 .detail__logement__name_adress p {
   font-size: 18px;
+  font-weight: 500;
+}
+
+.detail__logement__tags {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.detail__logement__tag {
+  background-color: #ff6060;
+  border-radius: 12px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .detail__logement__proprio {
@@ -34,8 +49,13 @@
 }
 
 .detail__logement__proprio__content p {
-  font-size: 18px;
   text-align: right;
+  display: flex;
+  column-gap: 10px;
+  width: min-content;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .detail__logement__proprio__name img {
@@ -48,9 +68,12 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  white-space: wrap;
 }
 
 .detail__logement__all_stars {
   display: flex;
-  height: 20px;
+  justify-content: flex-end;
+  height: 30px;
+  margin-top: 20px;
 }

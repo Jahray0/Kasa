@@ -39,7 +39,7 @@ function About() {
       <div className="about__content">
         {content.map((element) => (
           <Collapse
-            className="collapseContainer"
+            className="collapse__container__about"
             key={element.id}
             title={element.titre}
             description={element.description}

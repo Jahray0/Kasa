@@ -6,7 +6,7 @@ import chevronUp2 from "../assets/chevronUp2.svg";
 // Affichage des collapse des pages logement et à propos
 function Collapse(props) {
   //initailisation de l'état du collapse : fermé
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   //fonction qui permet de changer l'état du collapse
   function toggle() {
