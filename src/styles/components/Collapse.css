@@ -37,3 +37,21 @@
   padding: 16px;
   margin: 0px;
 }
+
+@media screen and (max-width: 375px) {
+  .collapse {
+    flex-direction: column;
+  }
+
+  .collapse__container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .collapse__container h2 {
+    font-size: 13px;
+  }
+  .collapse__description {
+    font-size: 12px;
+  }
+}

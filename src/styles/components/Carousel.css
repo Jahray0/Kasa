@@ -46,3 +46,18 @@
   color: white;
   font-size: 20px;
 }
+
+@media screen and (max-width: 375px) {
+  .carousel img {
+    height: 255px;
+  }
+
+  .carousel__controle {
+    top: -175px;
+  }
+
+  .imageActuelle {
+    top: -130px;
+    left: 45%;
+  }
+}

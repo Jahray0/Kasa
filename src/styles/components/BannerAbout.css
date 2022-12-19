@@ -10,3 +10,10 @@
   object-fit: cover;
   filter: brightness(0.7);
 }
+
+@media screen and (max-width: 375px) {
+  .main_b_about img {
+    object-fit: none;
+    object-position: bottom;
+  }
+}

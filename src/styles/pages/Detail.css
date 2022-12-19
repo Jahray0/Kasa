@@ -18,3 +18,18 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 375px) {
+  .collapse__container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .detail__main .collapse__title h2 {
+    font-size: 13px;
+  }
+
+  .detail__main .collapse__description {
+    font-size: 12px;
+  }
+}

@@ -2,3 +2,12 @@
   padding-left: 12%;
   padding-right: 12%;
 }
+
+@media screen and (max-width: 375px) {
+  .about__content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+    margin: auto;
+  }
+}
