@@ -41,3 +41,20 @@
   width: 66%;
   filter: brightness(1);
 }
+
+@media screen and (max-width: 375px) {
+  .logement_main {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .logement_main a {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .card_title {
+    margin-top: -90px;
+  }
+}

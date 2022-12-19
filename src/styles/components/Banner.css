@@ -37,3 +37,14 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 375px) {
+  .main_b {
+    height: 111px;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+    text-align: start;
+  }
+}

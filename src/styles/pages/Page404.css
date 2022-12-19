@@ -2,7 +2,10 @@
   font-weight: 700;
   font-size: 288px;
   text-align: center;
-  margin: 0;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
   color: #ff6060;
 }
 
@@ -10,7 +13,8 @@
   font-weight: 500;
   font-size: 36px;
   text-align: center;
-  margin: 0;
+  margin: auto;
+  width: 90%;
   margin-bottom: 80px;
   color: #ff6060;
 }
@@ -21,6 +25,8 @@
   text-align: center;
   width: 100%;
   color: #ff6060;
+  margin: auto;
+  width: 90%;
   margin-bottom: 80px;
 }
 
