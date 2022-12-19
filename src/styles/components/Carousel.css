@@ -24,18 +24,19 @@
 .chevronLeft {
   background-image: url(../../assets/chevronLeft.svg);
   background-repeat: no-repeat;
-  height: 50px;
-  width: 50px;
+  height: 80x;
+  width: 46px;
   position: relative;
+  margin-left: 20px;
 }
 
 .chevronRight {
   background-image: url(../../assets/chevronRight.svg);
   background-repeat: no-repeat;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 46px;
   position: relative;
-  margin-left: auto;
+  margin-right: 20px;
 }
 
 .imageActuelle {

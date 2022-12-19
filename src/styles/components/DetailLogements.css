@@ -45,7 +45,6 @@
 .detail__logement__proprio {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
 }
 
 .detail__logement__proprio__content p {
@@ -69,6 +68,12 @@
   flex-direction: row;
   justify-content: flex-end;
   white-space: wrap;
+}
+
+.detail__logement__proprio__name p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 15px;
 }
 
 .detail__logement__all_stars {

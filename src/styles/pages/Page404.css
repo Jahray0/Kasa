@@ -3,7 +3,7 @@
   font-size: 288px;
   text-align: center;
   margin: 0;
-  color: rgba(255, 96, 96);
+  color: #ff6060;
 }
 
 .error__text {
@@ -12,7 +12,7 @@
   text-align: center;
   margin: 0;
   margin-bottom: 80px;
-  color: rgba(255, 96, 96);
+  color: #ff6060;
 }
 
 .link__home {
@@ -20,7 +20,7 @@
   font-size: 18px;
   text-align: center;
   width: 100%;
-  color: rgba(255, 96, 96);
+  color: #ff6060;
   margin-bottom: 80px;
 }
 

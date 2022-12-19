@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 96, 96);
+  background-color: #ff6060;
   border-radius: 10px;
   position: relative;
   top: 10px;
@@ -29,11 +29,11 @@
 }
 
 .collapse__description {
-  background-color: #eae9e9;
+  background-color: #f7f7f7;
   font-size: 24px;
   border-radius: 5px;
   font-weight: 400;
-  color: rgb(255, 96, 96);
+  color: #ff6060;
   padding: 16px;
   margin: 0px;
 }
