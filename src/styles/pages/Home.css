@@ -28,10 +28,12 @@
 }
 
 .card_title {
-  margin-top: -75px;
   height: 40px;
   color: white;
   font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -35px;
 }
 
 .title {
@@ -40,6 +42,48 @@
   font-weight: 500;
   width: 66%;
   filter: brightness(1);
+}
+
+@media screen and (max-width: 1280px) {
+  .logement_main a img {
+    min-height: 340px;
+  }
+  .logement_main a {
+    width: 37%;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  .logement_main a {
+    width: 40%;
+    margin-top: 30px;
+    background-color: none;
+  }
+  .logement_main a img {
+    min-height: 260px;
+  }
+
+  .logement_main {
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logement_main {
+    flex-direction: column;
+  }
+  .logement_main a {
+    width: 90%;
+  }
+  .logement_main a img {
+    max-height: 120px;
+  }
+
+  .card_title {
+    margin-top: -90px;
+  }
 }
 
 @media screen and (max-width: 375px) {
