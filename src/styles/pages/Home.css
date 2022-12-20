@@ -82,7 +82,6 @@
   }
 
   .card_title {
-    margin-top: -90px;
   }
 }
 
@@ -95,10 +94,9 @@
   .logement_main a {
     width: 90%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .card_title {
-    margin-top: -90px;
   }
 }

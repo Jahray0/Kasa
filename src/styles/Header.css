@@ -39,6 +39,25 @@ li a:hover {
   border-bottom: 2px solid #ff6060;
 }
 
+@media screen and (max-width: 600px) {
+  .h_container img {
+    height: 47px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    margin: 0 5px;
+  }
+
+  li a {
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .h_container img {
     height: 47px;
