@@ -7,10 +7,10 @@ import starEmptyP2 from "../assets/starEmptyP2.svg";
 function DetailLogements({ data }) {
   return (
     <div>
-      <div className="photo__logement">
-        {/*A remplacer par le composant carousel*/}
-        {/*<img src={data.pictures[0]} alt="appartement" />*/}
-      </div>
+      {/*<div className="photo__logement">*/}
+      {/*A remplacer par le composant carousel*/}
+      {/*<img src={data.pictures[0]} alt="appartement" />*/}
+      {/*} </div>*/}
       <div className="detail__logement">
         <div className="detail__logement__name_adress">
           <h1>{data.title}</h1>

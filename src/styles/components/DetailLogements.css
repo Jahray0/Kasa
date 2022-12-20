@@ -12,7 +12,7 @@
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
-  margin-top: -150px;
+  margin-top: -80px;
   margin-bottom: 30px;
   color: #ff6060;
 }
@@ -80,7 +80,52 @@
   display: flex;
   justify-content: flex-end;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 911px) {
+  .detail__logement__name_adress h1 {
+    font-size: 24px;
+  }
+  .detail__logement__name_adress p {
+    font-size: 18px;
+  }
+  .detail__logement__tag {
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  .detail__logement__proprio__name p {
+    font-size: 14px;
+  }
+  .detail__logement__proprio__name img {
+    width: 48px;
+    height: 48px;
+  }
+  .detail__logement__all_stars {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .detail__logement {
+    flex-direction: column;
+  }
+
+  .detail__logement__proprio__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .detail__logement__proprio__name {
+    align-items: center;
+    display: flex;
+  }
+  .detail__logement__all_stars {
+    height: 25px;
+    margin: 0;
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -101,14 +146,13 @@
   }
   .detail__logement__proprio__content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
   }
   .detail__logement__proprio__name {
     align-items: center;
     display: flex;
-    flex-direction: row-reverse;
   }
 
   .detail__logement__proprio__name p {
@@ -124,12 +168,5 @@
     height: 15px;
     margin: 0;
     justify-content: flex-start;
-  }
-
-  .detail__logement__proprio__content :nth-child(1) {
-    order: 2;
-  }
-  .detail__logement__proprio__content :nth-child(2) {
-    order: 1;
   }
 }

@@ -41,10 +41,24 @@
 
 .imageActuelle {
   position: relative;
-  top: -110px;
-  left: 50%;
+  top: -140px;
   color: white;
   font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel img {
+    height: 315px;
+  }
+
+  .carousel__controle {
+    top: -200px;
+  }
+
+  .imageActuelle {
+    top: -130px;
+  }
 }
 
 @media screen and (max-width: 375px) {
