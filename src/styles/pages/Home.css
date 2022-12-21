@@ -76,9 +76,11 @@
   }
   .logement_main a {
     width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
   }
   .logement_main a img {
-    max-height: 120px;
+    max-height: 110px;
   }
 
   .card_title {

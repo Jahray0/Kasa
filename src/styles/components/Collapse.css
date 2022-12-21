@@ -38,6 +38,17 @@
   margin: 0px;
 }
 
+@media screen and (max-width: 600px) {
+  .collapse {
+    flex-direction: column;
+  }
+
+  .collapse__container {
+    padding-top: 10px;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .collapse {
     flex-direction: column;

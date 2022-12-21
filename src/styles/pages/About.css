@@ -3,11 +3,16 @@
   padding-right: 12%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   .about__content {
     padding-left: 0;
     padding-right: 0;
-    width: 90%;
     margin: auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__content {
   }
 }
