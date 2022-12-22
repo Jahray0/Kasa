@@ -1,5 +1,6 @@
 //Routes dom
 import { Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
 
 //!= pages
 import About from "../pages/About";

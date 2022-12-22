@@ -12,7 +12,13 @@ function Carousel({ images }) {
     setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
   };
 
-  if (images.length > 0) {
+  if (images.length === 1) {
+    return (
+      <div className="carousel">
+        <img className="image" src={images[currentImage]} alt="carousel" />
+      </div>
+    ); /*probleme de mise en page ! */
+  } else if (images.length > 0) {
     return (
       <div className="carousel">
         <img className="image" src={images[currentImage]} alt="carousel" />
