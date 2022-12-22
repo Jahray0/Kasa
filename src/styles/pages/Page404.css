@@ -36,6 +36,16 @@
   align-items: flex-end;
 }
 
+@media screen and (max-width: 991px) {
+  .error__number {
+    font-size: 150px;
+    font-weight: 700;
+  }
+  .error__text {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .error__number {
     font-size: 96px;

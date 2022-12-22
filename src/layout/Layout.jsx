@@ -10,6 +10,7 @@ import Page404 from "../pages/Page404";
 //Header + footer (présent sur toutes les pages))
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
+import "../styles/Layout.css";
 import "../styles/Footer.css";
 
 function Layout() {
