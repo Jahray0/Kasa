@@ -2,20 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { dataLogements } from "../data/dataLogements";
-//import pages
-import Page404 from "../pages/Page404";
-//omport components
-import DetailLogements from "../components/DetailLogements";
+import Page404 from "../pages/Page404"; //import pages
+import DetailLogements from "../components/DetailLogements"; //import components
 import Collapse from "../components/Collapse";
-//import Style
-import "../styles/pages/Detail.css";
 import Carousel from "../components/Carousel";
+import "../styles/pages/Detail.css"; //import Style
 
 // Affichage des composants des pages logement
 function Detail() {
   useEffect(() => {
     const body = document.querySelector("#root");
-
     body.scrollIntoView(
       {
         behavior: "auto",
@@ -23,12 +19,10 @@ function Detail() {
       500
     );
   }, []);
-
   //récupération de l'id du logement
   let { id } = useParams();
   //récupération des informations du logement
   const logement = dataLogements.getOneLogement(id);
-
   //si le logement n'existe pas, on affiche la page 404
   console.log(window.screenY);
 
