@@ -5,11 +5,10 @@ import "../styles/Header.css";
 function Header() {
   return (
     <header>
-      <div className="h_container">
+      <div className="header_container">
         <div className="logo">
-          <img src={logo_header} alt="coucou" />
+          <img src={logo_header} alt="Logo Kasa" />
         </div>
-
         <nav>
           <ul className="list">
             <li>

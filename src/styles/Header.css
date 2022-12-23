@@ -4,7 +4,7 @@
   font-family: "Montserrat";
 }
 
-.h_container {
+.header_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -40,7 +40,7 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .h_container img {
+  .header_container img {
     height: 47px;
   }
 
@@ -59,7 +59,7 @@ li a:hover {
 }
 
 @media screen and (max-width: 375px) {
-  .h_container img {
+  .header_container img {
     height: 47px;
   }
 
