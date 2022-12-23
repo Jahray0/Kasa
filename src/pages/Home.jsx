@@ -1,13 +1,12 @@
 import logements from "../data/logements.json";
 import { Link } from "react-router-dom";
 import Banner from "../components/Banner";
-import banner from "../assets/banner.png";
 import "../styles/pages/Home.css";
 
 function Home() {
   return (
     <div>
-      <Banner title="Chez vous, partout, et ailleur" img={banner} />
+      <Banner />
       <div className="logement_main">
         {logements.map((location) => (
           <Link key={location.id} to={`/detail/${location.id}`}>
