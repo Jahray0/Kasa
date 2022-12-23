@@ -4,7 +4,7 @@ import "../styles/pages/About.css";
 import Collapse from "../components/Collapse";
 import BannerAbout from "../components/BannerAbout";
 
-// Affichage des informations de la page à propos
+//Affichage de la page à propos
 function About() {
   const content = [
     {
@@ -37,12 +37,12 @@ function About() {
     <div className="about__main">
       <BannerAbout />
       <div className="about__content">
-        {content.map((element) => (
+        {content.map((contenu) => (
           <Collapse
             className="collapse__container__about"
-            key={element.id}
-            title={element.titre}
-            description={element.description}
+            key={contenu.id}
+            title={contenu.titre}
+            description={contenu.description}
           />
         ))}
       </div>
