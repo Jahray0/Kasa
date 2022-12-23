@@ -6,8 +6,7 @@ import chevronUp2 from "../assets/chevronUp2.svg";
 // Affichage des collapse des pages logement et à propos
 function Collapse(props) {
   //initailisation de l'état du collapse : fermé
-  const [isOpen, setIsOpen] = useState(true);
-
+  const [isOpen, setIsOpen] = useState(false);
   //fonction qui permet de changer l'état du collapse
   function toggle() {
     //si le collapse est ouvert, on le ferme
@@ -18,13 +17,12 @@ function Collapse(props) {
     <div className="collapse__container">
       <div className="collapse__title" onClick={toggle}>
         <h2>{props.title}</h2>
-
         {isOpen ? (
           //si le collapse est ouvert, on affiche la flèche vers le haut
-          <img src={chevronUp2} alt="upArrow" />
+          <img src={chevronUp2} alt="Flêche vers le haut" />
         ) : (
           //sinon on affiche la flèche vers le bas
-          <img src={chevronDown2} alt="chevronDown" />
+          <img src={chevronDown2} alt="Flêche vers le bas" />
         )}
       </div>
       {isOpen ? (

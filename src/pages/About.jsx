@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/pages/About.css";
-//import AboutImage from "../../components/Images/AboutImage";
 import Collapse from "../components/Collapse";
 import BannerAbout from "../components/BannerAbout";
 
