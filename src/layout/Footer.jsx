@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer_container">
         <div className="column">
-          <img src={logo_footer} alt="coucou" />
+          <img src={logo_footer} alt="Logo Kasa" />
           <p className="right">© 2020 Kasa. All rights reserved</p>
         </div>
       </div>
