@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/pages/About.css";
 import Collapse from "../components/Collapse";
 import BannerAbout from "../components/BannerAbout";
+import "../styles/pages/About.css";
 
 //Affichage de la page à propos
 function About() {
