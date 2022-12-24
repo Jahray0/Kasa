@@ -1,5 +1,4 @@
 import "../styles/components/DetailLogements.css";
-
 import starFullP2 from "../assets/starFullP2.svg";
 import starEmptyP2 from "../assets/starEmptyP2.svg";
 
@@ -7,16 +6,12 @@ import starEmptyP2 from "../assets/starEmptyP2.svg";
 function DetailLogements({ data }) {
   return (
     <div>
-      {/*<div className="photo__logement">*/}
-      {/*A remplacer par le composant carousel*/}
-      {/*<img src={data.pictures[0]} alt="appartement" />*/}
-      {/*} </div>*/}
       <div className="detail__logement">
         <div className="detail__logement__name_adress">
           <h1>{data.title}</h1>
           <p>{data.location}</p>
-          {/*parcourir la liste de tag : ok*/}
           <div className="detail__logement__tags">
+            {/*parcour la liste de tag : */}
             {data.tags.map((tag, index) => (
               <div key={index} className="detail__logement__tag">
                 {tag}
