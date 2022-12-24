@@ -12,20 +12,15 @@ import "../styles/pages/Detail.css"; //import Style
 function Detail() {
   useEffect(() => {
     const body = document.querySelector("#root");
-    body.scrollIntoView(
-      {
-        behavior: "auto",
-      },
-      500
-    );
+    body.scrollIntoView({ behavior: "auto" }, 500);
   }, []);
   //récupération de l'id du logement
   let { id } = useParams();
   //récupération des informations du logement
   const logement = dataLogements.getOneLogement(id);
-  //si le logement n'existe pas, on affiche la page 404
-  console.log(window.screenY);
+  //console.log(logement);
 
+  //si le logement n'existe pas, on affiche la page 404
   if (!logement) {
     return <Page404 />;
     //sinon on affiche les informations du logement

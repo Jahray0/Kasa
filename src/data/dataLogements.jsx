@@ -5,7 +5,6 @@ import logements from "./logements.json";
 const getAllLogement = () => {
   return logements;
 };
-
 //fonction qui retourne un logement en fonction de son id
 const getOneLogement = (id) => {
   //on parcours le tableau de logement et on retourne le logement qui a l'id correspondant
