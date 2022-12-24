@@ -9,6 +9,10 @@
   padding: 15px;
 }
 
+.detail__main {
+  margin-bottom: 30px;
+}
+
 .detail__main .collapse__title h2 {
   font-size: 18px;
   font-weight: 500;

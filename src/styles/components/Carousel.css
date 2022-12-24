@@ -49,6 +49,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .carousel {
+    min-height: 315px;
+  }
   .carousel img {
     height: 315px;
   }
@@ -63,15 +66,31 @@
 }
 
 @media screen and (max-width: 375px) {
+  .carousel {
+    min-height: 315px;
+  }
   .carousel img {
     height: 255px;
   }
 
   .carousel__controle {
-    top: -175px;
+    top: -140px;
   }
 
   .imageActuelle {
-    top: -130px;
+    top: -80px;
+  }
+  .chevronLeft {
+    background-image: url(../../assets/chevronLeftMini.svg);
+    height: 20px;
+    width: 12px;
+    margin-left: 10px;
+  }
+
+  .chevronRight {
+    background-image: url(../../assets/chevronRightMini.svg);
+    height: 20px;
+    width: 12px;
+    margin-right: 10px;
   }
 }
