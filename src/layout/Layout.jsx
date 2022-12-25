@@ -14,7 +14,7 @@ function Layout() {
   return (
     <div className="Layout">
       <Header />
-      <div class="container">
+      <div className="container">
         {/* Routing */}
         <Routes>
           <Route path="/" element={<Home />} />
