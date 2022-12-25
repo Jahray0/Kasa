@@ -8,7 +8,7 @@ import Page404 from "../pages/Page404";
 //Header + footer (présent sur toutes les pages))
 import Footer from "./Footer";
 import Header from "./Header";
-import "../styles/Layout.css";
+import "../styles/layout/Layout.css";
 
 function Layout() {
   return (
