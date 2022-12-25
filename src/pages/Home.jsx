@@ -8,6 +8,7 @@ function Home() {
     <div>
       <Banner />
       <div className="logement_main">
+        {/*//map permet de parcourir le tableau logements*/}
         {logements.map((location) => (
           <Link key={location.id} to={`/detail/${location.id}`}>
             <div className="card_img">

@@ -1,5 +1,6 @@
 import "../styles/components/Banner.css";
 
+//utilisé pour afficher la banniere
 function Banner() {
   return (
     <div className="main_b">

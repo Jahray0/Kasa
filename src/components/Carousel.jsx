@@ -26,6 +26,7 @@ function Carousel({ images }) {
       <div className="carousel">
         <img className="image" src={images[currentImage]} alt="carousel" />
         <div className="carousel__controle">
+          {/*//les fonctions sont appelées lors du clic sur les flèches*/}
           <div className="chevronLeft" onClick={imagePrecedente}></div>
           <div className="chevronRight" onClick={imageSuivante}></div>
         </div>
