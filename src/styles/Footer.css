@@ -13,9 +13,9 @@ footer {
 }
 
 .column img {
-  width: 100px;
-  height: 100%;
+  height: 40px;
   margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .right {
