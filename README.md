@@ -1,6 +1,6 @@
 # Projet n°7 Créez une application web de location immobilière avec React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a été créé avec [Create React App](https://github.com/facebook/create-react-app).
 
 ## Lancement du projet :
 
