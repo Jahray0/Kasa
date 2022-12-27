@@ -29,7 +29,11 @@ li a {
   font-weight: 500;
 }
 
-li a:hover {
+/*li a:hover {
+  border-bottom: 2px solid #ff6060;
+}*/
+
+.active {
   border-bottom: 2px solid #ff6060;
 }
 

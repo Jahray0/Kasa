@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 import logo_header from "../assets/logo_header.png";
 import "../styles/layout/Header.css";
 
@@ -12,10 +14,10 @@ function Header() {
         <nav>
           <ul className="list">
             <li>
-              <Link to="/">Accueil</Link>
+              <NavLink to="/">Accueil</NavLink>
             </li>
             <li>
-              <Link to="/about">A propos</Link>
+              <NavLink to="/about">A propos</NavLink>
             </li>
           </ul>
         </nav>
